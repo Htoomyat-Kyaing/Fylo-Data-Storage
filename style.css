@@ -32,3 +32,17 @@ main {
   padding: 30px;
   border-radius: 10px;
 }
+.display__progress-bar {
+  height: 16px;
+  border-radius: 10px;
+  background: hsl(6, 100%, 80%);
+  background: linear-gradient(
+    90deg,
+    hsl(6, 100%, 80%) 0%,
+    hsl(335, 100%, 65%) 100%
+  );
+}
+.display__progress {
+  display: flex;
+  justify-content: space-between;
+}
