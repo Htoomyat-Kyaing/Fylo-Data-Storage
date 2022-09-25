@@ -58,7 +58,7 @@ main {
   position: relative;
 }
 .display__progress-bar {
-  height: 12px;
+  height: 16px;
   width: 400px;
   border-radius: 10px;
   background: hsl(6, 100%, 80%);
@@ -88,7 +88,30 @@ main {
   top: -20%;
   border-radius: 5px;
   padding: 10px;
+  gap: 5px;
+}
+.display__notification:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  border-style: solid;
+  border-width: 0 25px 25px 0;
+  border-color: transparent #ffff;
+  bottom: -20px;
+  left: 92%;
+  margin-left: -12px;
 }
 .display__message {
   font-size: smaller;
+}
+
+/* utility classes */
+.big-text {
+  font-size: xx-large;
+  font-weight: 700;
+  opacity: 100%;
+}
+.opacity-70 {
+  opacity: 70%;
 }
