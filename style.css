@@ -27,3 +27,8 @@ main {
   border-radius: 10px;
   border-top-right-radius: 60px;
 }
+.display {
+  background-color: hsl(228, 56%, 26%);
+  padding: 30px;
+  border-radius: 10px;
+}
