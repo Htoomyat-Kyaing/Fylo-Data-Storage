@@ -84,3 +84,6 @@ main {
   left: 65%;
   top: -100%;
 }
+.display__message {
+  font-size: smaller;
+}
