@@ -29,7 +29,7 @@ main {
 }
 .display {
   background-color: hsl(228, 56%, 26%);
-  padding: 30px;
+  padding: 0px 30px;
   border-radius: 10px;
 }
 .display__progress-bar {
@@ -45,4 +45,13 @@ main {
 .display__progress {
   display: flex;
   justify-content: space-between;
+}
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: #ffff;
+  color: #000;
 }
