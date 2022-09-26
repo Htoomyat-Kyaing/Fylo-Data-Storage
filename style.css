@@ -23,6 +23,19 @@ main {
   align-items: center;
   gap: 30px;
 }
+@media (max-width: 875px) {
+  body {
+    background-image: url(/images/bg-mobile.png);
+    background-size: cover;
+    background-position-y: unset;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /* menu */
 .menu {
