@@ -58,19 +58,22 @@ main {
   position: relative;
   top: 20px;
 }
-.display__progress-bar {
+progress[value] {
   height: 16px;
   width: 400px;
+  background-color: hsl(229, 57%, 11%);
   border-radius: 10px;
-  background: hsl(6, 100%, 80%);
+  border: 2px solid hsl(229, 57%, 11%);
+  margin: 10px 0px;
+}
+progress[value]::-moz-progress-bar {
   background: linear-gradient(
     90deg,
     hsl(6, 100%, 80%) 0%,
     hsl(335, 100%, 65%) 100%
   );
-  border: 2px solid hsl(229, 57%, 11%);
-  background-color: hsl(229, 57%, 11%);
-  margin: 10px 0px;
+  border-radius: 10px;
+  position: relative;
 }
 .display__progress {
   display: flex;
