@@ -75,7 +75,7 @@ progress[value]::-moz-progress-bar {
   border-radius: 10px;
   position: relative;
 }
-.display__progress {
+.display__indicator {
   display: flex;
   justify-content: space-between;
 }
