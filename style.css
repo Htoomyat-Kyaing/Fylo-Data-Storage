@@ -21,7 +21,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 /* menu */
@@ -29,7 +29,7 @@ main {
   background-color: hsl(228, 56%, 26%);
   padding: 30px 90px 30px 30px;
   border-radius: 10px;
-  border-top-right-radius: 60px;
+  border-top-right-radius: 75px;
 }
 .menu__img {
   width: 100px;
@@ -53,9 +53,10 @@ main {
 /* display */
 .display {
   background-color: hsl(228, 56%, 26%);
-  padding: 30px;
+  padding: 20px 30px;
   border-radius: 10px;
   position: relative;
+  top: 20px;
 }
 .display__progress-bar {
   height: 16px;
@@ -84,8 +85,8 @@ main {
   background-color: #ffff;
   color: #000;
   position: absolute;
-  right: 7%;
-  top: -20%;
+  left: 60%;
+  top: -25%;
   border-radius: 5px;
   padding: 10px;
   gap: 5px;
@@ -99,7 +100,7 @@ main {
   border-width: 0 25px 25px 0;
   border-color: transparent #ffff;
   bottom: -20px;
-  left: 92%;
+  right: 0px;
   margin-left: -12px;
 }
 .display__message {
