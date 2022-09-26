@@ -53,10 +53,10 @@ main {
 /* display */
 .display {
   background-color: hsl(228, 56%, 26%);
-  padding: 20px 30px;
+  padding: 30px 30px;
   border-radius: 10px;
   position: relative;
-  top: 20px;
+  top: 17px;
 }
 progress[value] {
   height: 16px;
@@ -115,6 +115,9 @@ progress[value]::-moz-progress-bar {
   font-size: xx-large;
   font-weight: 700;
   opacity: 100%;
+}
+.small-text {
+  font-size: xx-small;
 }
 .opacity-70 {
   opacity: 70%;
